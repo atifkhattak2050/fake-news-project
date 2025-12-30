@@ -1,0 +1,24 @@
+{
+  "rows_total_loaded": 10106,
+  "rows_after_minlen_filter": 10069,
+  "dropped_short_lt_30chars": 37,
+  "text_col_used": "News Items",
+  "label_col_used": "Label",
+  "label_distribution": {
+    "fake": 5042,
+    "real": 5027
+  },
+  "columns_written": [
+    "id",
+    "dataset",
+    "label",
+    "text_raw",
+    "text_len"
+  ],
+  "text_len_stats": {
+    "min": 30,
+    "median": 147.0,
+    "p95": 1773.0,
+    "max": 5224
+  }
+}

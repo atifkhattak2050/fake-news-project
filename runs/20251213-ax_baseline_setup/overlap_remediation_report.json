@@ -1,0 +1,11 @@
+{
+  "btt_rows_before": 900,
+  "btt_rows_after_text_dedup": 894,
+  "btt_removed_exact_text_dups": 6,
+  "ax_rows_before_overlap_removal": 9206,
+  "ax_removed_due_to_overlap_with_btt": 279,
+  "ax_rows_after_overlap_removal": 8927,
+  "ax_id_duplicates_final": 0,
+  "btt_id_duplicates_final": 0,
+  "cross_corpus_exact_overlap_final": 0
+}

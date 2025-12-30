@@ -1,0 +1,30 @@
+{
+  "rows_total": 8927,
+  "split_sizes": {
+    "test": 893,
+    "train": 7141,
+    "val": 893
+  },
+  "label_distribution_overall": {
+    "real": 4594,
+    "fake": 4333
+  },
+  "label_by_split": {
+    "fake": {
+      "test": 433,
+      "train": 3466,
+      "val": 434
+    },
+    "real": {
+      "test": 460,
+      "train": 3675,
+      "val": 459
+    }
+  },
+  "seed": 42,
+  "ratios": {
+    "train": 0.8,
+    "val": 0.1,
+    "test": 0.1
+  }
+}

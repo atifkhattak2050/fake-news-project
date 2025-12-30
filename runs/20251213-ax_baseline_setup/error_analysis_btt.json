@@ -1,0 +1,45 @@
+{
+  "char_tfidf_linearsvc": {
+    "confusion_matrix_labels": [
+      "real",
+      "fake"
+    ],
+    "confusion_matrix": [
+      [
+        45,
+        104
+      ],
+      [
+        18,
+        93
+      ]
+    ],
+    "report": {
+      "fake": {
+        "precision": 0.4720812182741117,
+        "recall": 0.8378378378378378,
+        "f1-score": 0.6038961038961039,
+        "support": 111.0
+      },
+      "real": {
+        "precision": 0.7142857142857143,
+        "recall": 0.30201342281879195,
+        "f1-score": 0.42452830188679247,
+        "support": 149.0
+      },
+      "accuracy": 0.5307692307692308,
+      "macro avg": {
+        "precision": 0.593183466279913,
+        "recall": 0.5699256303283149,
+        "f1-score": 0.5142122028914482,
+        "support": 260.0
+      },
+      "weighted avg": {
+        "precision": 0.6108830256038378,
+        "recall": 0.5307692307692308,
+        "f1-score": 0.501104555821537,
+        "support": 260.0
+      }
+    }
+  }
+}

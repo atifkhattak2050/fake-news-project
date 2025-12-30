@@ -1,0 +1,44 @@
+{
+  "rows_total_ingested": 900,
+  "splits": {
+    "train": 638,
+    "test": 262
+  },
+  "label_distribution_overall": {
+    "real": 500,
+    "fake": 400
+  },
+  "label_distribution_by_split": {
+    "fake": {
+      "test": 112,
+      "train": 288
+    },
+    "real": {
+      "test": 150,
+      "train": 350
+    }
+  },
+  "domain_coverage_top10": {
+    "hlth": 200,
+    "tch": 200,
+    "sbz": 200,
+    "bus": 150,
+    "sp": 150
+  },
+  "text_len_stats": {
+    "min": 313,
+    "median": 1224.5,
+    "p95": 3849.5499999999993,
+    "max": 10939
+  },
+  "columns_written": [
+    "id",
+    "dataset",
+    "split",
+    "label",
+    "text_raw",
+    "filename",
+    "domain",
+    "text_len"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "btt_macro_f1": 0.5971159319461135,
+  "confusion_matrix_labels": [
+    "real",
+    "fake"
+  ],
+  "confusion_matrix": [
+    [
+      114,
+      35
+    ],
+    [
+      63,
+      48
+    ]
+  ],
+  "report": {
+    "fake": {
+      "precision": 0.5783132530120482,
+      "recall": 0.43243243243243246,
+      "f1-score": 0.4948453608247423,
+      "support": 111.0
+    },
+    "real": {
+      "precision": 0.6440677966101694,
+      "recall": 0.7651006711409396,
+      "f1-score": 0.6993865030674846,
+      "support": 149.0
+    },
+    "accuracy": 0.6230769230769231,
+    "macro avg": {
+      "precision": 0.6111905248111088,
+      "recall": 0.598766551786686,
+      "f1-score": 0.5971159319461135,
+      "support": 260.0
+    },
+    "weighted avg": {
+      "precision": 0.6159956645355869,
+      "recall": 0.6230769230769231,
+      "f1-score": 0.6120631692638523,
+      "support": 260.0
+    }
+  },
+  "max_len": 256,
+  "stride": 128,
+  "model_dir": "./runs/20251214-btt_only_chunks/xlmr_btt_only_chunks/model"
+}

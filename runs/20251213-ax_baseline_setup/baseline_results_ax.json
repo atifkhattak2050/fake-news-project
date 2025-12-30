@@ -1,0 +1,203 @@
+{
+  "char_tfidf_linearsvc": {
+    "val": {
+      "report": {
+        "fake": {
+          "precision": 0.8682352941176471,
+          "recall": 0.8502304147465438,
+          "f1-score": 0.8591385331781141,
+          "support": 434.0
+        },
+        "real": {
+          "precision": 0.8611111111111112,
+          "recall": 0.8779956427015251,
+          "f1-score": 0.8694714131607335,
+          "support": 459.0
+        },
+        "accuracy": 0.864501679731243,
+        "macro avg": {
+          "precision": 0.8646732026143791,
+          "recall": 0.8641130287240344,
+          "f1-score": 0.8643049731694238,
+          "support": 893.0
+        },
+        "weighted avg": {
+          "precision": 0.8645734800079046,
+          "recall": 0.864501679731243,
+          "f1-score": 0.864449610347232,
+          "support": 893.0
+        }
+      },
+      "confusion_matrix_labels": [
+        "real",
+        "fake"
+      ],
+      "confusion_matrix": [
+        [
+          403,
+          56
+        ],
+        [
+          65,
+          369
+        ]
+      ]
+    },
+    "test": {
+      "report": {
+        "fake": {
+          "precision": 0.9114832535885168,
+          "recall": 0.8799076212471132,
+          "f1-score": 0.8954171562867215,
+          "support": 433.0
+        },
+        "real": {
+          "precision": 0.8905263157894737,
+          "recall": 0.9195652173913044,
+          "f1-score": 0.9048128342245989,
+          "support": 460.0
+        },
+        "accuracy": 0.9003359462486002,
+        "macro avg": {
+          "precision": 0.9010047846889953,
+          "recall": 0.8997364193192088,
+          "f1-score": 0.9001149952556602,
+          "support": 893.0
+        },
+        "weighted avg": {
+          "precision": 0.9006879664803872,
+          "recall": 0.9003359462486002,
+          "f1-score": 0.9002570351796931,
+          "support": 893.0
+        }
+      },
+      "confusion_matrix_labels": [
+        "real",
+        "fake"
+      ],
+      "confusion_matrix": [
+        [
+          423,
+          37
+        ],
+        [
+          52,
+          381
+        ]
+      ]
+    },
+    "vectorizer": {
+      "analyzer": "char",
+      "ngram_range": [
+        3,
+        5
+      ],
+      "min_df": 2,
+      "max_df": 0.95
+    },
+    "model": {
+      "type": "LinearSVC"
+    }
+  },
+  "word_tfidf_logreg": {
+    "val": {
+      "report": {
+        "fake": {
+          "precision": 0.8491484184914841,
+          "recall": 0.804147465437788,
+          "f1-score": 0.8260355029585799,
+          "support": 434.0
+        },
+        "real": {
+          "precision": 0.8236514522821576,
+          "recall": 0.8649237472766884,
+          "f1-score": 0.8437832093517534,
+          "support": 459.0
+        },
+        "accuracy": 0.8353863381858903,
+        "macro avg": {
+          "precision": 0.8363999353868209,
+          "recall": 0.8345356063572382,
+          "f1-score": 0.8349093561551666,
+          "support": 893.0
+        },
+        "weighted avg": {
+          "precision": 0.8360430349639579,
+          "recall": 0.8353863381858903,
+          "f1-score": 0.8351577842961685,
+          "support": 893.0
+        }
+      },
+      "confusion_matrix_labels": [
+        "real",
+        "fake"
+      ],
+      "confusion_matrix": [
+        [
+          397,
+          62
+        ],
+        [
+          85,
+          349
+        ]
+      ]
+    },
+    "test": {
+      "report": {
+        "fake": {
+          "precision": 0.889168765743073,
+          "recall": 0.815242494226328,
+          "f1-score": 0.8506024096385543,
+          "support": 433.0
+        },
+        "real": {
+          "precision": 0.8387096774193549,
+          "recall": 0.9043478260869565,
+          "f1-score": 0.8702928870292888,
+          "support": 460.0
+        },
+        "accuracy": 0.8611422172452408,
+        "macro avg": {
+          "precision": 0.863939221581214,
+          "recall": 0.8597951601566423,
+          "f1-score": 0.8604476483339215,
+          "support": 893.0
+        },
+        "weighted avg": {
+          "precision": 0.8631764022168575,
+          "recall": 0.8611422172452408,
+          "f1-score": 0.860745320724487,
+          "support": 893.0
+        }
+      },
+      "confusion_matrix_labels": [
+        "real",
+        "fake"
+      ],
+      "confusion_matrix": [
+        [
+          416,
+          44
+        ],
+        [
+          80,
+          353
+        ]
+      ]
+    },
+    "vectorizer": {
+      "analyzer": "word",
+      "ngram_range": [
+        1,
+        2
+      ],
+      "min_df": 2,
+      "max_df": 0.95
+    },
+    "model": {
+      "type": "LogisticRegression",
+      "max_iter": 2000
+    }
+  }
+}

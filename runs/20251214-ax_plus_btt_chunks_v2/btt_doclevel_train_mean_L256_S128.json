@@ -1,0 +1,50 @@
+{
+  "split": "train",
+  "max_len": 256,
+  "stride": 128,
+  "agg": "mean",
+  "topk": 3,
+  "threshold": 0.3,
+  "macro_f1": 0.7568558308181175,
+  "confusion_matrix_labels": [
+    "real",
+    "fake"
+  ],
+  "confusion_matrix": [
+    [
+      250,
+      97
+    ],
+    [
+      57,
+      230
+    ]
+  ],
+  "report": {
+    "real": {
+      "precision": 0.8143322475570033,
+      "recall": 0.7204610951008645,
+      "f1-score": 0.764525993883792,
+      "support": 347.0
+    },
+    "fake": {
+      "precision": 0.7033639143730887,
+      "recall": 0.8013937282229965,
+      "f1-score": 0.749185667752443,
+      "support": 287.0
+    },
+    "accuracy": 0.7570977917981072,
+    "macro avg": {
+      "precision": 0.758848080965046,
+      "recall": 0.7609274116619305,
+      "f1-score": 0.7568558308181175,
+      "support": 634.0
+    },
+    "weighted avg": {
+      "precision": 0.764098948465862,
+      "recall": 0.7570977917981072,
+      "f1-score": 0.7575817137580867,
+      "support": 634.0
+    }
+  }
+}

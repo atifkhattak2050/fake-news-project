@@ -1,0 +1,98 @@
+{
+  "model_name": "sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2",
+  "classifier": {
+    "type": "LogisticRegression",
+    "class_weight": "balanced",
+    "max_iter": 4000
+  },
+  "val": {
+    "report": {
+      "fake": {
+        "precision": 0.8164705882352942,
+        "recall": 0.7995391705069125,
+        "f1-score": 0.8079161816065192,
+        "support": 434.0
+      },
+      "real": {
+        "precision": 0.8141025641025641,
+        "recall": 0.8300653594771242,
+        "f1-score": 0.8220064724919094,
+        "support": 459.0
+      },
+      "accuracy": 0.8152295632698768,
+      "macro avg": {
+        "precision": 0.8152865761689292,
+        "recall": 0.8148022649920184,
+        "f1-score": 0.8149613270492143,
+        "support": 893.0
+      },
+      "weighted avg": {
+        "precision": 0.8152534291345964,
+        "recall": 0.8152295632698768,
+        "f1-score": 0.8151585595644074,
+        "support": 893.0
+      }
+    },
+    "confusion_matrix_labels": [
+      "real",
+      "fake"
+    ],
+    "confusion_matrix": [
+      [
+        381,
+        78
+      ],
+      [
+        87,
+        347
+      ]
+    ]
+  },
+  "test": {
+    "report": {
+      "fake": {
+        "precision": 0.8369304556354916,
+        "recall": 0.8060046189376443,
+        "f1-score": 0.8211764705882353,
+        "support": 433.0
+      },
+      "real": {
+        "precision": 0.8235294117647058,
+        "recall": 0.8521739130434782,
+        "f1-score": 0.8376068376068376,
+        "support": 460.0
+      },
+      "accuracy": 0.8297872340425532,
+      "macro avg": {
+        "precision": 0.8302299337000987,
+        "recall": 0.8290892659905613,
+        "f1-score": 0.8293916540975365,
+        "support": 893.0
+      },
+      "weighted avg": {
+        "precision": 0.8300273423313914,
+        "recall": 0.8297872340425532,
+        "f1-score": 0.8296400415048726,
+        "support": 893.0
+      }
+    },
+    "confusion_matrix_labels": [
+      "real",
+      "fake"
+    ],
+    "confusion_matrix": [
+      [
+        392,
+        68
+      ],
+      [
+        84,
+        349
+      ]
+    ]
+  },
+  "headline": {
+    "macro_f1_val": 0.8149613270492143,
+    "macro_f1_test": 0.8293916540975365
+  }
+}
