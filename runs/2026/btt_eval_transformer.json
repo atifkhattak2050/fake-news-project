@@ -1,0 +1,47 @@
+{
+  "btt_macro_f1": 0.6314102564102564,
+  "confusion_matrix_labels": [
+    "real",
+    "fake"
+  ],
+  "confusion_matrix": [
+    [
+      110,
+      39
+    ],
+    [
+      53,
+      58
+    ]
+  ],
+  "report": {
+    "fake": {
+      "precision": 0.5979381443298969,
+      "recall": 0.5225225225225225,
+      "f1-score": 0.5576923076923077,
+      "support": 111.0
+    },
+    "real": {
+      "precision": 0.6748466257668712,
+      "recall": 0.738255033557047,
+      "f1-score": 0.7051282051282052,
+      "support": 149.0
+    },
+    "accuracy": 0.6461538461538462,
+    "macro avg": {
+      "precision": 0.636392385048384,
+      "recall": 0.6303887780397848,
+      "f1-score": 0.6314102564102564,
+      "support": 260.0
+    },
+    "weighted avg": {
+      "precision": 0.6420126202303167,
+      "recall": 0.6461538461538462,
+      "f1-score": 0.6421844181459566,
+      "support": 260.0
+    }
+  },
+  "max_len": 512,
+  "stride": 256,
+  "model_dir": "./runs/20251214-ax_plus_btt_chunks_v2/xlmr_ax_plus_btt_chunks/model"
+}
